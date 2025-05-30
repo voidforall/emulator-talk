@@ -65,11 +65,81 @@
 				<!-- Motivation and Spectrum machine model -->
 				<section data-background-iframe="https://old-dog-new-tricks.xania.org/#/2"
 					data-background-interactive>
+					<aside class="notes">
+						Matt knows Spectrum well and has hobby in writing emulators.
+
+						The Sinclair ZX Spectrum was an iconic British home computer launched in 1982, sold over 5 million units.
+						A lot at that time, for a comparison, Apple II sold 6 million units.
+						
+						Also ZX Spectrum games have lots of industry firsts, becoming prototypes for many later games that we are familiar with today.
+
+						Manic Miner, one of the most influential games on Spectrum.
+
+						8bit registers, 16bit pairs, counterpart shadows;
+						IX, IY for index addressing, SP for stack pointer, PC for program counter;
+						I for interrupt vector register, R for refresh register.
+					  </aside>
 				</section>
+				<section>
+					<section data-auto-animate>
+						<h3>So in summary...</h3>
+					</section>
+					<section data-auto-animate>
+						<h3>So in summary...</h3>
+						<ul>
+							<li class="fragment">A spectrum emulator for custom assembly code</li>
+							<li class="fragment">with C++ (and some modern features) </li>
+							<li class="fragment">to learn and play retro games 🎮</li>
+						</ul>
+					</section>
+				</section>
+				
 				<!-- First implementation -->
 				<section data-background-iframe="https://old-dog-new-tricks.xania.org/#/3"
 					data-background-interactive>
 				</section>
+				
+				<!-- Reflection on first implementation (play until constexpr in dream implementation) -->
+				<section data-background-iframe="https://old-dog-new-tricks.xania.org/#/4"
+					data-background-interactive>
+				</section>
+
+				<!-- First mental model of constexpr -->
+				<section>
+					<section>
+						<h3>Mental model of constexpr</h3>
+						<blockquote class="fragment">
+							"The constexpr specifier declares that it is possible to evaluate the value of the entities at compile time."
+						</blockquote>
+						<p style="text-align: right; margin-top: 30px; font-size: 0.8em;" class="fragment">
+							— cppreference
+						</p>
+					</section>
+					<section data-background-iframe="https://godbolt.org/z/cnrzKr"
+					data-background-interactive>
+					</section>
+					<section data-background-iframe="https://quick-bench.com/q/yGo0VvdRGK5Y66NKDIRMq_zN_sw"
+					data-background-interactive>
+					</section>
+					<section data-background-iframe="https://build-bench.com/b/ktOFXQ9__JADv2JL9THF5TMY03Q"
+					data-background-interactive>
+					</section>
+					<section>
+						<h3>Why constexpr</h3>
+						<ul>
+							<li class="fragment">it provides a potential trade-off between runtime and compile-time</li>
+							<li class="fragment">(if used appropriately...)</li>
+						</ul>
+					</section>
+				</section>
+
+				<!-- Back to constexpr revision (play until constexpr 5.8) -->
+				<section data-background-iframe="https://old-dog-new-tricks.xania.org/#/4/2/1"
+					data-background-interactive>
+				</section>
+
+				
+				
 			</div>
 		</div>
 
